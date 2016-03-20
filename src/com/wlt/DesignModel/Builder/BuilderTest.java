@@ -10,11 +10,11 @@ import java.util.List;
 public class BuilderTest {
 }
 class Builder{
-    private List<SenderTest> list=new ArrayList<SenderTest>();
+    //private List<SenderTest> list=new ArrayList<SenderTest>();
 
     public void produceSendMail(int num){
         for(int i=0;i<num;i++){
-            list.add(new MailSend());
+           // list.add(new MailSend());
         }
     }
 }
